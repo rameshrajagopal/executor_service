@@ -7,7 +7,7 @@ folly for synchronizing across threads or io_service.
 Prerequisite :
  - should have rocksdb 4.8 
  - should have folly
- - should boost latest
+ - should have boost
 
 data/data_writer.cpp - this one generates rocksdb database for the benchmarking tool
 
