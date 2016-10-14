@@ -1,0 +1,23 @@
+#ifndef __STATUS_H_INCLUDED__
+#define __STATUS_H_INCLUDED__
+
+enum class Status {
+    SUCCESS = 0x0,
+
+    STATUS_BASE = 0x0,
+
+    FAILURE = STATUS_BASE + 0x1,
+
+    THREADS_CREATION_FAILED = STATUS_BASE + 0x2,
+
+    DB_OPEN_FAILED = STATUS_BASE + 0x3,
+
+    DB_NOT_INITIALIZED = STATUS_BASE + 0x4,
+
+    DB_PUT_FAILED = STATUS_BASE + 0x4,
+
+    DB_GET_FAILED = STATUS_BASE + 0x4,
+};
+
+
+#endif /* __STATUS_H_INCLUDED__ */
